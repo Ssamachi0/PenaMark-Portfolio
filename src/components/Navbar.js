@@ -1,3 +1,5 @@
+"use client";
+
 import ThemeToggle from "./ThemeToggle";
 
 function Navbar() {
@@ -11,3 +13,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
