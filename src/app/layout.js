@@ -1,16 +1,17 @@
-import './globals.css';
+import "./globals.css";
+
+import { ThemeProvider } from "../context/ThemeContext";
 
 export const metadata = {
-    title: 'My Portfolio',
-    description: 'Modern Portfolio Website'
+    title: "My Portfolio",
+    description: "Modern Portfolio Website",
 };
 
 export default function RootLayout({ children }) {
-
     return (
         <html lang="en">
             <body>
-                {children}
+                <ThemeProvider>{children}</ThemeProvider>
             </body>
         </html>
     );
