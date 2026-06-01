@@ -1,56 +1,32 @@
 function Hero() {
   return (
-    <section className="hero">
+    <section id="home" className="hero">
+      <p className="hero-kicker">Aspiring Web & Game Developer</p>
 
-      <h1>
-        Mark Kenneth Peña
-      </h1>
+      <h1>Mark Kenneth Peña</h1>
 
-      <h2>
-        Aspiring Web Developer &
-        Game Developer
-      </h2>
+      <h2>Building clean web experiences while growing in software development.</h2>
 
       <p>
-        Building modern websites and
-        exploring game development through
-        continuous learning and projects.
+        I create modern portfolio and school-based projects, improve my frontend
+        skills, and continuously explore game development through hands-on practice.
       </p>
 
       <div className="hero-buttons">
-
-        <a
-          href="#projects"
-          className="primary-btn"
-        >
+        <a href="#projects" className="primary-btn">
           View Projects
         </a>
 
-        <a
-          href="/resume.pdf"
-          className="secondary-btn"
-        >
-          Resume
+        <a href="#contact" className="secondary-btn">
+          Contact Me
         </a>
-
       </div>
 
       <div className="socials">
-
-        <a href="#">
-          GitHub
-        </a>
-
-        <a href="#">
-          Facebook
-        </a>
-
-        <a href="#">
-          Email
-        </a>
-
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Email Me</a>
       </div>
-
     </section>
   );
 }
